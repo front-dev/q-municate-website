@@ -1,0 +1,439 @@
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1em;
+	color: #444;
+	text-rendering: optimizeLegibility;
+}
+p {font-weight:100;}
+img {
+    max-width: 100% !important;
+    height:auto !important;
+}
+.container {
+    max-width: 960px;
+}
+.content-wrap {
+	background:rgba(255,255,255,.9);
+	font-family: "proxima-nova", Helvetica Neue, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#header-wrap {
+	background: url('images/qm_bubble.png') no-repeat center -70px;
+	background-size: 960px;
+	text-shadow: 0 1px 0 #fff;
+}
+#platforms-mobile {
+	display:none;
+}
+#large-iphone-wrapper {
+	text-align: center;
+	padding-left:40px;
+}
+#header-content-wrap {
+	padding-top: 15px;
+}
+#welcome .header-platforms {
+	width: 30px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+#welcome {
+    margin-top: 165px;
+    text-align: left;
+}
+#welcome #large-iphone {
+	margin-left: 50px;
+}
+#welcome h1 {
+    margin: 0;
+    font-weight:400;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    font-size: 6.5em;
+    letter-spacing: -0.05em;
+}
+#welcome h3 {
+	font: 3em "reklame-script";
+	color: #00C72D;
+	margin: 0;
+	text-indent: 10px;
+}
+#welcome p {
+	color: #999999;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin: 15px 0 25px;
+    font-weight:400;
+}
+#welcome .join-beta {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0);
+	padding: 10px 30px;
+	font-size: 1.1em;
+	font-weight: 300;
+	border-radius: 4px;
+	color: #666;
+	display: inline-block;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	transition: all .2s ease;
+}
+#welcome .join-beta:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
+#welcome .join-beta:active {
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	border-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.03);
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#welcome .join-beta:active,#welcome .join-beta:focus {
+	outline: none;
+}
+#cross-platform {
+	margin-top: 40px;
+}
+
+#chat-wrap, #push-wrap {
+	border: 1px solid #DAE8F5;
+	background: #F9FCFF;
+	padding: 20px 0;
+}
+#chat-wrap #chat-iphone-container {
+    position: relative;
+    text-align: center;
+}
+#chat-iphone, #video-iphone, #notification-iphone {
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#chat-wrap #chat-content {
+    margin-top: 60px;
+    padding-right: 20px;
+}
+.content>h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.content>p {
+    margin: 15px 0 25px;
+    font-size: 1.4em;
+}
+#chat-wrap #chat-features>div {
+    text-align: center;
+}
+#chat-wrap #chat-features>div h4 {
+    margin: 15px 0 10px;
+    font-size: 1.2em;
+}
+#chat-wrap #chat-features>div p {
+    font-size: 1em;
+    margin-top: 0px;
+    line-height: 1.2;
+}
+#video-content {
+	margin-top: 50px;
+	padding-left: 25px;
+}
+#push-iphone-wrap {
+	text-align: center;
+}
+#get-qm {
+	background: #EEECDF;
+	background-size: cover;
+	background-size: 500px;
+	background-position-x: 105%;
+}
+#getButtons {
+	margin: 30px 10px 0;
+}
+a.appstore-button {
+    position: relative;
+    opacity: .75;
+    -webkit-transition: opacity .2s ease;
+    -moz-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+a.appstore-button:hover {
+    opacity: 1;
+}
+a.appstore-button img {
+    vertical-align: bottom;
+    height: 42px !important;
+	width: auto;
+}
+#cross-platform h3 {
+	font-size: 1.4em;
+    margin: 10px 0 0px;
+}
+#cross-platform p {
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+#chat-features img:nth-child(1) {
+	height: 35px !important;
+}
+#video-wrap {
+	padding: 20px 0;
+}
+#cross-platform img {
+	height: 40px !important;
+	margin-right: 15px;
+}
+#push-content-wrap {
+    margin-top: 50px;
+    padding-right: 40px;
+}
+
+.divider {
+	border-top: 1px solid #DDD;
+	margin: 30px auto;
+    max-width: 960px;
+}
+
+#large-iphone {
+	margin-left: 30px;
+}
+
+#enterprise-wrap {
+    margin-top: 40px;
+    text-align: center;
+}
+#enterprise-chat-icon {
+    margin-bottom: 20px;
+}
+#enterprise-content-wrap h1 {
+    font-weight: 300;
+    font-size: 2.8em;
+}
+#enterprise-content-wrap ul li {
+    display: block;
+    font-weight: 100;
+}
+#enterprise-content-wrap ul {
+    padding-left: 0;
+}
+#enterprise-content-wrap ul li:before {
+    content: "+ ";
+    font-weight: bold;
+}
+
+#beta-form-wrap {
+	width: 330px;
+	margin: 0 auto;
+}
+#get-qm {
+    padding: 20px 40px;
+}
+
+#get-qm img {
+	width: auto !important;
+	height: 255px !important;
+}
+
+#get-qm>.container>.row>div {
+	text-align: center;
+}
+
+#get-qm h1 {
+    color: #A5A183;
+	font-size: 4em;
+	font-weight: 100;
+	margin: 15px 0 40px;
+	text-align: center;
+}
+
+#get-qm-top {
+	background: url(images/get-beta-pattern-top.png) repeat-x;
+	height:10px;
+	margin-top: 50px;
+}
+
+#get-qm-top, #get-qm-bottom {
+	background: url(images/get-beta-pattern-top.png) repeat-x;
+	height:10px;
+}
+#get-qm-bottom {
+	background: url(images/get-beta-pattern-bottom.png) repeat-x;
+	height:10px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+#footer {
+	padding-top: 15px;
+}
+#copyright {
+    padding-top: 11px;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #646464;
+}
+#footer-logo {
+    margin-top: 8px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+	#platforms-desktop {display:none}
+	#platforms-mobile {
+		display: inline-block;
+		position: relative;
+		top: 110px;
+	}
+	#platforms-mobile img {
+		display: block;
+		width: 20px;
+		margin-bottom: 20px;
+	}
+    #header-wrap {
+	    background-position: center top !important;
+	    background-size: 90% !important;
+	}
+	#welcome {
+	    margin-top: 0;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	#welcome p {
+	    font-size: 1em;
+	    text-align: center;
+	}
+	#welcome p br {
+	    display: none;
+	}
+	#welcome .header-platforms {
+	    width: 20px;
+	    margin-right: 10px;
+	    margin-bottom: 0;
+	}
+	#welcome #qm-logo {
+		display: block;
+		margin: 0 auto;
+		padding: 0 30px;
+	}
+	#large-iphone-wrapper {
+		width: 300px;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	#large-iphone {
+		margin-left: 0;
+		width: 60%;
+	}
+	#welcome .join-beta:hover, #welcome .join-beta:active {
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
+		border-color: rgba(0, 0, 0, 0.4);
+	    background: rgba(0, 0, 0, 0.03);
+		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	#push-content-wrap {
+		margin-top: 0;
+		padding: 15px;
+	}
+	#chat-features div {
+		text-align: center
+	}
+	#video-wrap {
+	    padding: 20px;
+	}
+	#video-iphone-wrap {
+		text-align: center;
+	}
+	#video-content {
+	    margin-top: 20px;
+	    padding-left: 0;
+	}
+	#beta-form-wrap {
+		width: auto;
+		margin: 0 auto;
+	}
+    #get-qm {
+    	padding: 20px 20px;
+	    background-position: center bottom !important;
+	}
+	#get-qm>.container>.row>div {
+		margin-bottom: 15px;
+	}
+	#get-qm>.container>.row>div>.row>div:first-child {
+		text-align: right;
+	}
+	#get-qm>.container>.row>div>.row>div:last-child {
+		padding-top:30px;
+		text-align: left;
+	}
+	#get-qm img {
+		width: 100% !important;
+		height: auto !important;
+		max-width: 120px !important
+	}
+	#get-qm h1 {
+		font-size: 2.2em
+	}
+	#get-qm:hover {
+		background-position: center bottom;
+	}
+	#get-qm input {
+	    background: rgba(255, 255, 255, 0.8);
+	    border-color: #949494;
+	}
+	#get-qm input:focus {
+		background: #fff;
+	}
+	#copyright {
+	    font-size: 0.6em;
+	    padding-top: 14px;
+	}
+	#footer-logo {
+	    margin-top: 10px;
+	}
+}
+
+
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-width: 1500px) { 
+    #get-qm {
+		background: #EEECDF;
+		background-size: 500px;
+		background-position-x: 105%;
+		-webkit-transform:translateZ(0);
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+	}
+	#get-qm:hover {
+		background-position-x: 103%;
+	}
+	#get-qm-top, #get-qm-bottom {
+		background: url(images/get-beta-pattern-top@2x.png) repeat-x;
+		background-size: 18px;
+		height:10px;
+	}
+	#get-qm-bottom {
+		background: url(images/get-beta-pattern-bottom@2x.png) repeat-x;
+		background-size: 18px;
+		height:10px;
+	}
+	#header-wrap {
+		background: url('images/qm_bubble@2x.png') no-repeat center -70px;
+		background-size: 960px;
+	}
+}
